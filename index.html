@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Brew For You</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <h1>Find A local brewery!</h1>
+    <p>With Brew For You find the brewery closest to you!</p>
+    <p>Enter in your Zip code and the distance you are willing to travel.</p>
+    <form id="js-locate-form">
+        <label for='location'>City:</label>
+        <input type="text" name="city" id="js-city">
+        <br>
+        <br>
+        <label for="state">State:</label>
+        <input type="text" name="state" id="js-state">
+        <br>
+        <br>
+        <input type="submit" value="Find!">
+    </form>
+    <div class="js-search-results">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJTllZQRqjkx1QysVZpErLqTsHLUiRLT4&callback=initMap">
+    </script>-->
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
